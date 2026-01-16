@@ -1,0 +1,29 @@
+{
+  "name": "@metal-community/api",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Metal Community API",
+  "keywords": [
+    "API"
+  ],
+  "homepage": "https://github.com/Alejandro2134/metal-community#readme",
+  "bugs": {
+    "url": "https://github.com/Alejandro2134/metal-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejandro2134/metal-community.git"
+  },
+  "license": "ISC",
+  "author": "Alejandro Zapata Molina",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@metal-community/typescript-config": "*",
+    "express": "^5.2.1"
+  }
+}
